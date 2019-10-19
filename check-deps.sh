@@ -28,8 +28,6 @@ elif [ -x /usr/bin/awk ]; then
 else
   echo "awk not found"
 fi
-12
-Linux From Scratch - Version 9.0
 gcc --version | head -n1
 g++ --version | head -n1
 ldd --version | head -n1 | cut -d" " -f2-  # glibc version
